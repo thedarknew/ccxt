@@ -16,7 +16,7 @@ try {
     $symbol = 'ETH/BTC';
     $result = $exchange->fetch_ticker ($symbol);
 
-    var_dump ($result);
+    echo ($result);
 
 } catch (\ccxt\NetworkError $e) {
     echo '[Network Error] ' . $e->getMessage() . "\n";
