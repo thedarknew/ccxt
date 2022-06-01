@@ -7,7 +7,6 @@ include $root . '/ccxt.php';
 date_default_timezone_set('UTC');
 
 $exchange = new \ccxt\binance(array(
-    'verbose' => true,
     'timeout' => 30000,
 ));
 
